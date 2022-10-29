@@ -63,7 +63,7 @@ public class CheckQuestionMainPage {
     }
 
     @Test
-    public void example() {
+    public void checkTestOnAccordeonHeadingAndAccordeonPanel() {
 
         // Создали объект главной страницы
         MainPage mainPage = new MainPage(driver);
