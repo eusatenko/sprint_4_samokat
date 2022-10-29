@@ -26,11 +26,11 @@ public class CheckQuestionMainPage {
 
     @Before
     public void startUp() {
-        WebDriverManager.firefoxdriver();
-        driver = new FirefoxDriver();
+//        WebDriverManager.firefoxdriver();
+//        driver = new FirefoxDriver();
 
-//        WebDriverManager.chromedriver().setup();
-//        driver = new ChromeDriver();
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
     }
 
     private final String locatorAccordeonHeading;

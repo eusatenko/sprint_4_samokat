@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5f5d17c-76b2-49da-988d-4c35edebce3c" name="Changes" comment="Подключил (настроил) запуск в Firefox.&#10;Исправил ошибки с ожиданием элемента в &quot;Вопросы о важном&quot;">
+    <list default="true" id="f5f5d17c-76b2-49da-988d-4c35edebce3c" name="Changes" comment="Переименовал тест">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +44,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ForDevelop.example">
+  <component name="RunManager" selected="JUnit.CheckQuestionMainPage.checkTestOnAccordeonHeadingAndAccordeonPanel">
     <configuration name="CheckQuestionMainPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sprint_4_samokat" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CheckQuestionMainPage" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckQuestionMainPage.checkTestOnAccordeonHeadingAndAccordeonPanel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sprint_4_samokat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckQuestionMainPage" />
+      <option name="METHOD_NAME" value="checkTestOnAccordeonHeadingAndAccordeonPanel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckQuestionMainPage.checkTestOnAccordeonHeadingAndAccordeonPanel" />
         <item itemvalue="JUnit.ForDevelop.example" />
         <item itemvalue="JUnit.CheckQuestionMainPage" />
         <item itemvalue="JUnit.ForDevelop" />
@@ -111,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666991046779</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Переименовал тест">
+      <created>1667033624095</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667033624095</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +147,7 @@
     <MESSAGE value="Create project Samokat" />
     <MESSAGE value="Add CheckQuestionMainPage. &#10;Work OK" />
     <MESSAGE value="Подключил (настроил) запуск в Firefox.&#10;Исправил ошибки с ожиданием элемента в &quot;Вопросы о важном&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подключил (настроил) запуск в Firefox.&#10;Исправил ошибки с ожиданием элемента в &quot;Вопросы о важном&quot;" />
+    <MESSAGE value="Переименовал тест" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переименовал тест" />
   </component>
 </project>
