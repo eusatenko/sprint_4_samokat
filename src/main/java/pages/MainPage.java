@@ -9,7 +9,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MainPage {
 
-    private WebDriver driver;
+    private final WebDriver driver;
+    // Верхняя кнопка заказать, xPath локатор
+    private final String locatorButtonOrderUP = ".//button[@class='Button_Button__ra12g']";
+    //Нижняя кнопка заказать, xPath локатор
+    private final String locatorButtonOrderDown = ".//div[@class='Home_FinishButton__1_cWm']/button";
 
     public MainPage(WebDriver driver) {this.driver = driver;}
 
@@ -44,5 +48,18 @@ public class MainPage {
                 .until(ExpectedConditions.visibilityOfElementLocated(By.id(locatorAccordeonPanel)));
         String actualTextAccordeonPanel = driver.findElement(By.id(locatorAccordeonPanel)).getText();
         return actualTextAccordeonPanel;
+    }
+
+    // Клик по кнопке "Заказать"
+    public void clickOrder(int n) {
+
+        if (n==1) {
+            driver.findElement(By.xpath(locatorButtonOrderUP)).click();
+        } else {
+            // Скролл до элемента
+            WebElement element = driver.findElement(By.xpath(locatorButtonOrderDown));
+            ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+            driver.findElement(By.xpath(locatorButtonOrderDown)).click();
+        }
     }
 }
